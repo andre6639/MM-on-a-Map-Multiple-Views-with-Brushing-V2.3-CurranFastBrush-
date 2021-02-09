@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 7em;
+}
+.marks .land {
+  fill: #e6e4e4;
+}
+.marks .sphere {
+  fill: #f7f7f7;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #abaaaa;
+}
+.marks .graticules, .tick line {
+  fill: none;
+  stroke: #ececec;
+}
+circle {
+  fill: #137B80;
+  opacity: 0.3;
+}
+.tick text {
+  font-size: 0.35em;
+  fill: #635F5D;
+}
+.mark {
+  fill: #137B80;
+}
+.axis-label {
+  font-size: 0.5em;
+  fill: #635F5D;
+}
